@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="spoof">
+      <UniqueIdentifier>{97cebcee-ed78-497a-b5ac-6c10b9f81d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic">
+      <UniqueIdentifier>{afe1d596-1d0a-433c-8002-f0796fe6b0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic\output">
+      <UniqueIdentifier>{f64ab0da-1e1e-42b9-9a98-da85da415559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic\memory">
+      <UniqueIdentifier>{7ad79854-5a56-43e5-8637-3f14370a3e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{2b63320e-20fe-4f41-93f0-20b7233f387e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maplestory">
+      <UniqueIdentifier>{a191c1dd-a9d4-4f5c-bfc7-758cca441683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xigncode">
+      <UniqueIdentifier>{77b164e5-0976-4289-bc8f-01fac2895cc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exports.cpp">
+      <Filter>spoof</Filter>
+    </ClCompile>
+    <ClCompile Include="generic.cpp">
+      <Filter>generic</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>generic\output</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>generic\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="maplestory.cpp">
+      <Filter>maplestory</Filter>
+    </ClCompile>
+    <ClCompile Include="xigncode.cpp">
+      <Filter>xigncode</Filter>
+    </ClCompile>
+    <ClCompile Include="xigncode_manager.cpp">
+      <Filter>xigncode</Filter>
+    </ClCompile>
+    <ClCompile Include="xigncode_callback.cpp">
+      <Filter>xigncode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="exports.hpp">
+      <Filter>spoof</Filter>
+    </ClInclude>
+    <ClInclude Include="generic.hpp">
+      <Filter>generic</Filter>
+    </ClInclude>
+    <ClInclude Include="output.hpp">
+      <Filter>generic\output</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.hpp">
+      <Filter>generic\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="native.hpp">
+      <Filter>xigncode</Filter>
+    </ClInclude>
+    <ClInclude Include="xigncode.hpp">
+      <Filter>xigncode</Filter>
+    </ClInclude>
+    <ClInclude Include="xigncode_manager.hpp">
+      <Filter>xigncode</Filter>
+    </ClInclude>
+    <ClInclude Include="xigncode_callback.hpp">
+      <Filter>xigncode</Filter>
+    </ClInclude>
+    <ClInclude Include="maplestory.hpp">
+      <Filter>maplestory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>spoof</Filter>
+    </None>
+  </ItemGroup>
+</Project>

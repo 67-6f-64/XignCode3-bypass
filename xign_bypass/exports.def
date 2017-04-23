@@ -1,0 +1,9 @@
+LIBRARY "xign_bypass"
+
+EXPORTS
+	ijlGetLibVersion		= ijl15_GetLibVersion					@1		PRIVATE
+	ijlInit					= ijl15_Init							@2		PRIVATE
+	ijlFree					= ijl15_Free							@3		PRIVATE
+	ijlRead					= ijl15_Read							@4		PRIVATE
+	ijlWrite				= ijl15_Write							@5		PRIVATE
+	ijlErrorStr				= ijl15_ErrorStr						@6		PRIVATE
